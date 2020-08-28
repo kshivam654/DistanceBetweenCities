@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/profile_image"-->
+    <!--        android:layout_width="60dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginStart="12dp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:fontFamily="sans-serif-black"-->
+    <!--        android:padding="3dp"-->
+    <!--        android:text="Hotel"-->
+    <!--        android:textAlignment="center"-->
+    <!--        app:srcCompat="@mipmap/person_four" />-->
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="Place Name"
+        android:textColor="#555555"
+        android:textSize="22sp" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/description_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/name_text"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:layout_marginRight="30dp"-->
+    <!--        android:layout_marginTop="5dp"-->
+    <!--        android:layout_toEndOf="@+id/profile_image"-->
+    <!--        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"-->
+    <!--        android:textColor="#999999"-->
+    <!--        android:textSize="14sp" />-->
+
+    <!--    <androidx.appcompat.widget.AppCompatImageView-->
+    <!--        android:layout_width="43dp"-->
+    <!--        android:layout_height="42dp"-->
+    <!--        android:layout_below="@+id/name_text"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginTop="-14dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:src="@drawable/ic_baseline_double_arrow_24" />-->
+</RelativeLayout>
